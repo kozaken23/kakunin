@@ -17,7 +17,6 @@ Laravel環境構築
 使用技術 <br>
 ・PHP 7.4.9 <br>
 ・Laravel 8.83.8 <br>
-・MysQL <br>
 ・MySQL 15.1 <br>
 
 URL <br>
