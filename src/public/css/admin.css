@@ -1,0 +1,247 @@
+.admin-form__content{
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.admin-form__heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.heading--logo {
+    color: #684625;
+    font-family: "Merriweather", serif;
+}
+
+.admin-search__group{
+    margin: 0 auto;
+    width:100%;
+}
+
+.search-form{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__input--user input {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+    background: #EEEEEE;
+    border-radius: 2px;
+    appearance: none;
+    height: 30px;
+    font-family: "Merriweather", serif;
+}
+
+.form__input--select{
+    position: relative;
+    min-width: 80px;
+    display: inline-block;
+}
+
+.form__input--select select{
+
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    color: #918980;
+    font-family: "Merriweather", serif;
+    appearance: none;
+    -webkit-appearance: none;    /* Safari対応 */
+    -moz-appearance: none;    /* Firefox対応 */
+}
+
+.form__input--select::before {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    width: 15px;
+    height: 10px;
+    background: #aea59b;
+    clip-path: polygon(0 0, 100% 0, 50% 100%); /* 下向き矢印 */
+    pointer-events: none; /* ユーザー操作を無効化 */
+}
+
+.form__input--date input[type="date"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    color: #918980;
+    font-family: "Merriweather", serif;
+    appearance: none;
+}
+
+.form__input--date input[type="date"]::-webkit-calendar-picker-indicator {
+    content: '▼';
+    color: transparent;
+    background: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.form__input--date {
+    position: relative;
+    min-width: 80px;
+    display: inline-block;
+}
+
+.form__input--date::after {
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.search-form__button button {
+    height: 100%;
+    background: #9f886d;
+    border: #9f886d;
+    color: #fff;
+}
+
+.search-form__reset button{
+    height: 100%;
+    background: #dec3a5;
+    border: #dec3a5;
+    color: #fff;
+}
+
+.search-form__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__table{
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.search-table__inner {
+    width: 100%;
+}
+
+
+.contact-table__heder--row{
+    background: #9f886d;
+    border-radius: 1px;
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.contact-table__item{
+    border: solid 1px #EEEEEE;
+}
+
+.contact-table__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.contact-table__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-table__header-span{
+    margin-right: 150px;
+    color: #ffffffd8;
+    font-family: "Merriweather", serif;
+}
+
+.contact-table__item-name{
+    width: 200px;
+    text-align: left;
+    font-family: "Merriweather", serif;
+}
+
+.contact-table__item-gender{
+    width: 170px;
+    text-align: left;
+    font-family: "Merriweather", serif;
+}
+
+.contact-table__item-email{
+    width: 260px;
+    text-align: left;
+    font-family: "Merriweather", serif;
+}
+
+.contact-table__item-type{
+    width: 340px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.contact-table__item-detail button{
+    text-align: left;
+    margin-right: 10px;
+    padding:5px 10px;
+    font-family: "Merriweather", serif;
+    border: solid 1px #d5b781;
+    border-radius: 2px;
+    color: #d5b781;
+}
+
+.contact-table__row th,
+.contact-table__row td {
+    height: 50px;
+}
+
+/* ページネーション */
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}
+
+.page-logo{
+    margin: 10px 10px;
+    padding: 5px 10px;
+}
+
+/* search */
+
+.search-export button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 5px;
+    background: #faf2eb;
+    border: #dec3a5;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.export--text{
+    color: #9f886d;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,187 @@
+.contact-form__content{
+    margin: 0 auto;
+    padding: 30x 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.heading--logo{
+    color: #684625;
+    font-family: "Merriweather", serif;
+}
+
+.form{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form__label--item{
+    color: #684625;
+}
+
+.form__label--required{
+    margin-left: 2px;
+    color: rgb(215, 145, 145);
+}
+
+.form__group-content{
+    display: flex;
+    width: 60%;
+    color: #684625;
+    font-family: "Merriweather", serif;
+
+    /*border: solid 3px rgb(167, 167, 209); kakunin*/
+}
+
+/* name */
+.form__input--name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form__input--name input{
+    padding: 10px;
+    width: 230px;
+    border: 1px solid #EEEEEE;
+    background: #EEEEEE;
+    border-radius: 2px;
+    appearance: none;
+    height: 30px;
+
+    font-family: "Merriweather", serif;
+}
+
+/* email */
+.form__input--text input{
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #EEEEEE;
+    background: #EEEEEE;
+    border-radius: 2px;
+    appearance: none;
+    margin-right: 50px;
+}
+
+.form__input--text input {
+    height: 30px;
+}
+
+.form__input--text input::placeholder{
+    font-family: "Merriweather", serif;
+}
+
+/* ボタン */
+.form__group-content input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form__group-content input[type="radio"]:checked{
+    border-color: #9f886d;
+    background-color: #9f886d;
+}
+
+/* tel */
+.form__input--tel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form__input--tel input {
+    padding: 10px;
+    width: 130px;
+    border: 1px solid #EEEEEE;
+    background: #EEEEEE;
+    border-radius: 2px;
+    appearance: none;
+    height: 30px;
+}
+
+.form__input--tel input::placeholder{
+    font-family: "Merriweather", serif;
+}
+
+.form__input--type {
+    position: relative;
+    /* 疑似要素を配置するため */
+    width: 250px;
+}
+
+.form__input--type select {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    color: #918980;
+    font-family: "Merriweather", serif;
+    appearance: none;
+    -webkit-appearance: none; /* Safari対応 */
+    -moz-appearance: none; /* Firefox対応 */
+}
+
+.form__input--type::before {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    /* 垂直方向に中央揃え */
+    content: '';
+    width: 20px;
+    height: 15px;
+    background: #918980;
+    clip-path: polygon(0 0, 100% 0, 50% 100%); /* 下向き矢印 */
+    pointer-events: none;
+    /* ユーザー操作を無効化 */
+}
+
+/* textarea */
+.form__input--textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.form__input--textarea textarea {
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+    border: #EEEEEE;
+}
+
+.form__button button{
+    background: #9f886d;
+    border: #9f886d;
+    color: #fff;
+}
+
+.form__error{
+    display: inline-block;
+    margin: 2px;
+    padding: 3px;
+    background: #EEEEEE;
+    color: #e45353;
+    border-radius: 2px;
+}

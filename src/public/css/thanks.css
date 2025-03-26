@@ -1,0 +1,56 @@
+.thanks-form__content{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.thanks-form__back{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    width: 100%;
+    max-width: 1230px;;
+    letter-spacing: 20px;
+
+    font-size: 200px;
+    font-family: "Merriweather", serif;
+    color: #f4f3f3;
+}
+
+.form__group{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.form__group--item{
+    max-width: 100%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #907c65;
+}
+
+.form__group--home{
+    margin-top: 20px;
+    width: 110px;
+    height: 35px;
+    line-height: 35px; /* line-heightをheightと同じ高さにすることで垂直方向中央にくる */
+    text-align: center;
+    background: #907c65;
+    text-decoration: none;
+    display: inline-block;
+    color: #EEEEEE;
+    border-radius: 1px;
+    border: solid 1px #907c65;
+    font-family: "Merriweather", serif;
+    
+}
+

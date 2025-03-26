@@ -19,6 +19,10 @@ Laravel環境構築
 ・Laravel 8.83.8 <br>
 ・MySQL 15.1 <br>
 
+ER図
+![ER図](index.drawio.png)
+<br>
+
 URL <br>
 ・開発環境: http://localhost/<br>
 ・phpMyAdmin http://localhost:8080/<br>
